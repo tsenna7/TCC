@@ -1,0 +1,70 @@
+object uFrmAgenda: TuFrmAgenda
+  Left = 0
+  Top = 0
+  Caption = 'Agenda'
+  ClientHeight = 413
+  ClientWidth = 422
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel2: TPanel
+    Left = 0
+    Top = 55
+    Width = 121
+    Height = 358
+    Align = alLeft
+    BevelOuter = bvNone
+    Color = 13299895
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitHeight = 364
+  end
+  object Panel5: TPanel
+    Left = 0
+    Top = 0
+    Width = 422
+    Height = 55
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 12706981
+    ParentBackground = False
+    TabOrder = 1
+    ExplicitWidth = 636
+    object lblTituloAgenda: TLabel
+      Left = 147
+      Top = 7
+      Width = 115
+      Height = 42
+      Caption = 'Agenda'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -35
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+  end
+  object Panel1: TPanel
+    Left = 120
+    Top = 55
+    Width = 516
+    Height = 364
+    Color = clWhite
+    ParentBackground = False
+    TabOrder = 2
+    object mcAgenda: TMonthCalendar
+      Left = -57
+      Top = 30
+      Width = 414
+      Height = 297
+      Date = 43699.584094606480000000
+      TabOrder = 0
+    end
+  end
+end
